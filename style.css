@@ -17,7 +17,19 @@ body{
     padding: 0;
     width: 100vw;
     text-align: center;
-    padding-top: 20vh;
+    padding-top: 3vh;
+}
+
+.game-heading {
+    font-family: 'Pacifico', cursive; /* Custom font for a playful look */
+    font-size: 3rem; /* Increase the size */
+    color: #dfbc09; /* Primary color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    background: linear-gradient(45deg, #f3ec78, #af4261); /* Gradient effect */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Apply gradient to the text */
+    margin-bottom: 20px; /* Spacing below the heading */
+    letter-spacing: 2px; /* Increase spacing between letters */
 }
 
 .turn-container{
